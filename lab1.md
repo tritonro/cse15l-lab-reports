@@ -6,7 +6,8 @@
 a tutorial for incoming 15L students (and your future self!) about how to log into a course-specific account on ieng6.
 
 ## Steps for logging into a course-specific account on ieng6
-1. Installing VScode
+1. Installing VScode. 
+Normally, to install VScode, you should just go to their [website](https://code.visualstudio.com/) and follow the prompts to download the software. However, I already had VScode downloaded on my laptop, so I didn't do this step during lab. When you open VScode for the first time, you should land on a page similar to the one pictured below.
 *Include at least 3 images corresponding to the steps*. 
 
 ![Image](http://url/a.png). 
