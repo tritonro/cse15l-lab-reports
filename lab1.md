@@ -16,5 +16,8 @@ Normally, to install VScode, you should just go to their [website](https://code.
 
 *Include at least 2-3 sentences or bullet points describing what you did. If for some reason you didn’t do the step exactly, describe why not (maybe your computer already had something on it, maybe the department computers worked differently, etc).*. 
 
-2. Remotely Connecting
-3. Trying Some Commands
+2. **Remotely Connecting**. 
+Windows users will need to install Git at this [link](https://gitforwindows.org/) before proceeding. As a Mac user, I skipped this step. With VS Code open, I moved my cursor to the top of the screen to access the menu at the top of the screen. From this menu, I selected Terminal >> New Terminal. This opens a black terminal where users can type the commands needed to connect. The command is "ssh," followed by your username on the remote computer. In this class, this username is "cs15lsp23zz@ieng6.ucsd.edu, " where "zz" is replaced by two letters unique to each student. I found my unique letters by accessing the Password Change Tool linked in the lab Google Document. If the username is correct, students will be prompted to enter "yes" or "no", and then asked for a password, which they reset using the Password Change Tool.   
+  
+  The screenshot below shows these commands running in my terminal. 
+4. Trying Some Commands
