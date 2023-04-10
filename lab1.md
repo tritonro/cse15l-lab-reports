@@ -20,5 +20,6 @@ Normally, to install VScode, you should just go to their [website](https://code.
 Windows users will need to install Git at this [link](https://gitforwindows.org/) before proceeding. As a Mac user, I skipped this step. With VS Code open, I moved my cursor to the top of the screen to access the menu at the top of the screen. From this menu, I selected Terminal >> New Terminal. This opens a black terminal where users can type the commands needed to connect. The command is "ssh," followed by your username on the remote computer. In this class, this username is "cs15lsp23zz@ieng6.ucsd.edu, " where "zz" is replaced by two letters unique to each student. I found my unique letters by accessing the Password Change Tool linked in the lab Google Document. If the username is correct, students will be prompted to enter "yes" or "no", and then asked for a password, which they reset using the Password Change Tool.   
   
   If your connection is successful, the output should resemble the screenshot below.  
-  ![Image](https://github.com/tritonro/cse15l-lab-reports/blob/2b955bde42290f217ebc6e23d04460a762bec9f2/images/remote_access.png)
+  ![Image](https://github.com/tritonro/cse15l-lab-reports/blob/2b955bde42290f217ebc6e23d04460a762bec9f2/images/remote_access_ss.png). 
+  
 4. Trying Some Commands
