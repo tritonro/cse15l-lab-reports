@@ -1,9 +1,7 @@
 # Lab Report 1 
 **by Rosario Ortiz**
 
- a blog post about remote access
- 
-a tutorial for incoming 15L students (and your future self!) about how to log into a course-specific account on ieng6.
+ This lab report is a blog post about remote access. More specifically, it is intended to serve as a tutorial for incoming 15L students about logging into a course-specific account on ieng6.
 
 ## Steps for logging into a course-specific account on ieng6
 1. **Installing VScode**.  
@@ -11,10 +9,6 @@ a tutorial for incoming 15L students (and your future self!) about how to log in
  Normally, to install VScode, you should just go to their [website](https://code.visualstudio.com/) and follow the prompts to download the software. However, I already had VScode downloaded on my laptop, so I didn't do this step during lab. When you open VScode for the first time, you should land on a page similar to the one pictured below.  
 
 ![Image](images/vsCode_ss.png). 
-
-*Include at least 3 images corresponding to the steps*. 
-
-*Include at least 2-3 sentences or bullet points describing what you did. If for some reason you didn’t do the step exactly, describe why not (maybe your computer already had something on it, maybe the department computers worked differently, etc).*. 
 
 2. **Remotely Connecting**. 
 
