@@ -10,7 +10,7 @@ a tutorial for incoming 15L students (and your future self!) about how to log in
 
  Normally, to install VScode, you should just go to their [website](https://code.visualstudio.com/) and follow the prompts to download the software. However, I already had VScode downloaded on my laptop, so I didn't do this step during lab. When you open VScode for the first time, you should land on a page similar to the one pictured below.  
 
-![Image](https://github.com/tritonro/cse15l-lab-reports/blob/2b955bde42290f217ebc6e23d04460a762bec9f2/images/vsCode_ss.png). 
+![Image](images/vsCode_ss.png). 
 
 *Include at least 3 images corresponding to the steps*. 
 
@@ -28,7 +28,7 @@ Windows users will need to install Git at this [link](https://gitforwindows.org/
  If the username is correct, students will be prompted to enter "yes" or "no." Students should answer "yes" to be prompted for a password, which they reset using the Password Change Tool.   
   
   A successful connection will produce an output resembling the screenshot below.  
-  ![Image](https://github.com/tritonro/cse15l-lab-reports/blob/2b955bde42290f217ebc6e23d04460a762bec9f2/images/remote_access_ss.png). 
+  ![Image](images/remote_access_ss.png). 
   
 4. Trying Some Commands. 
  Once you have connected successfully, attempt to use the following commands in terminal:
