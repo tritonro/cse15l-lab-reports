@@ -39,6 +39,7 @@ Windows users will need to install Git at this [link](https://gitforwindows.org/
  - cp
 
 Note that these commands may have parameters that alter the output they produce. Try typing different words or filepaths after them to see what kinds of parameters they accept and what outputs they produce. This is a screenshot of some commands I tried to run.  
+
 ![Image](https://github.com/tritonro/cse15l-lab-reports/blob/b951e94eb85017c4bdf9522de3693fab4f6febaf/images/commands.png). 
 
 
