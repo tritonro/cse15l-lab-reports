@@ -24,7 +24,7 @@ Windows users will need to install Git at this [link](https://gitforwindows.org/
   A successful connection will produce an output resembling the screenshot below.  
   ![Image](images/remote_access_ss.png). 
   
-4. Trying Some Commands. 
+3. Trying Some Commands. 
  Once you have connected successfully, attempt to use the following commands in terminal:
  - cd 
  - ls
