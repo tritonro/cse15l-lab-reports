@@ -5,7 +5,7 @@
 
 ## Part 1 - Writing a Web Server 
 
-Image[] <!--- Code-->
+Image[images/server_ss1] <!--- Code-->
 Image[]<!--- SS of Using it 1  -->  
 
 The methods in my code that are called include:
