@@ -6,7 +6,40 @@
 For this portion of the lab, I used a lot of the code given for writing a server during lab 2. The Server.java file is the same, but I created a new StringServer.java file which adapted code from NumberServer.java. The adapted code is given below:  
 
 ```
-code
+//most of this code is taken from lab 2's NumberServer. 
+
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/add-message")) {
+            String q = url.getQuery();
+            q = q.substring(2);
+        
+            return (q) ; 
+        }
+        else {
+            System.out.println("Path: " + url.getPath());
+            return "404 Not Found!";
+        }
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
 ```
 
 ![Screenshot of server printing the formatted query "Please give me an A !"](images/server_ss1.png)<!--- Code-->
