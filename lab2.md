@@ -5,7 +5,7 @@
 
 ## Part 1 - Writing a Web Server 
 
-Image![images/server_ss1.png] <!--- Code-->
+image![Screenshot of server printing the formatted query "Please give me an A !"](images/server_ss1.png)<!--- Code-->
 Image[]<!--- SS of Using it 1  -->  
 
 The methods in my code that are called include:
