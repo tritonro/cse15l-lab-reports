@@ -5,8 +5,7 @@
 
 ## Part 1 - Writing a Web Server 
 
-image![Screenshot of server printing the formatted query "Please give me an A !"](images/server_ss1.png)<!--- Code-->
-Image[]<!--- SS of Using it 1  -->  
+![Screenshot of server printing the formatted query "Please give me an A !"](images/server_ss1.png)<!--- Code-->
 
 The methods in my code that are called include:
 - the main method in StringServer.java,
@@ -18,7 +17,7 @@ The methods in my code that are called include:
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.  
 
-Image[]<!--- SS of Using it 2  -->. 
+![Screenshot of server printing an error message](images/server_ss2.png)
 
 Which methods in your code are called?
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
