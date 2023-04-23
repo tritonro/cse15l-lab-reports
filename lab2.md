@@ -1,9 +1,11 @@
 # Lab Report 2 
 **by Rosario Ortiz**
 
- This lab report is a blog post about remote access. More specifically, it is intended to serve as a tutorial for incoming 15L students about logging into a course-specific account on ieng6.
-
 ## Part 1 - Writing a Web Server 
+
+For this portion of the lab, I used a lot of the code given for writing a server during lab 2. The Server.java file is the same, but I created a new StringServer.java file which adapted code from NumberServer.java. The adapted code is given below:  
+
+`hi
 
 ![Screenshot of server printing the formatted query "Please give me an A !"](images/server_ss1.png)<!--- Code-->
 
