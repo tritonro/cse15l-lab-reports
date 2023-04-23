@@ -8,7 +8,13 @@
 Image[] <!--- Code-->
 Image[]<!--- SS of Using it 1  -->  
 
-Which methods in your code are called?
+The methods in my code that are called include:
+- the main method in StringServer.java,
+- start in Server.java
+- handleRequest in StringServer.java
+- handle in Server.java
+
+
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.  
 
