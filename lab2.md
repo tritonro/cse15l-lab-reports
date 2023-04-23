@@ -45,13 +45,19 @@ class StringServer {
 ![Screenshot of server printing the formatted query "Please give me an A !"](images/server_ss1.png)<!--- Code-->
 
 The methods in my code that are called include:
-- the main method in StringServer.java,
-- start in Server.java
+- the main method
 - handleRequest in StringServer.java
-- handle in Server.java
+
 
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
+The relevant argument given to the main method is an array containing a single string, which should be parsable as an integer. This integer specifies the port number on which to run the server. 
+
+Code executed in the Server.java file provided in lab 2 ...
+
+
+
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.  
 
 ![Screenshot of server printing an error message](images/server_ss2.png)
