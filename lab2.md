@@ -83,21 +83,32 @@ My lab group found a bug in lab 3 using this JUnit test:
    assertArrayEquals(new int[]{2,1 }, ArrayExamples.reversed(input1));
  }
 ```
+The given JUnit test below did not produce a failure:
+
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    
+  }
+```
 
 
+The symptom, visible in the terminal output of running the these tests, is shown below. 
 
-Provide:
+![Screenshot of terminal output of tests](images/symptom.png)
 
-A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
+The bug prior to fixing the code is show below. 
+
+This is the code after fixing the bug.
 Briefly describe why the fix addresses the issue.
 
 
 ## Part 3 - New Things I Learned
 
-In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+Something I learned from lab in week 2 that I didn’t know before is that Java can use try{} and catch{}. I have seen these used for asynchronous code in Javascript before, but I'm curious to learn how exactly they work in Java. 
 
 
 
