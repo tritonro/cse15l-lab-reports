@@ -102,7 +102,13 @@ The symptom, visible in the terminal output of running the these tests, is shown
 
 The bug prior to fixing the code is show below. 
 '''
-
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
 '''
 
 This is the code after fixing the bug.
@@ -118,7 +124,12 @@ This is the code after fixing the bug.
   }
 '''
 
-Briefly describe why the fix addresses the issue.
+The specific bug I am discussing was fixed by this line: 
+'''
+ for(int i = 0; i < arr.length/2; i += 1) {
+'''
+
+The fix addresses the issue because it prevents the for loop from iterating through the entire array. By "reversing" the entire array, the code ends up reversing the reversed array, putting each index back in its original position. By only iterating through half of the array, the for loop stops when it finishes reversing the array elements. 
 
 
 ## Part 3 - New Things I Learned
