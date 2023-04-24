@@ -48,17 +48,16 @@ The methods in my code that are called include:
 - the main method
 - handleRequest in StringServer.java
 
-
-
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-The relevant argument given to the main method is an array containing a single string, which should be parsable as an integer. This integer specifies the port number on which to run the server. 
+The relevant argument given to the main method is an array containing a single string, which should be parsable as an integer. This integer is saved to the field, "port," which specifies the port number on which to run the server. 
 
-Code executed in the Server.java file provided in lab 2 ...
+Code executed in the Server.java file provided in lab 2 starts the server at this given port. Code in this file passes requests made to the server into the handleRequest method in StringServer.java, then prints the return value to the webpage. 
 
-
+The handleRequest method in the Handler class takes the URL entered into the browser as an argument. It has a string , q, which saves the query of this URL.  
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.  
+The value of port was assigned to 4001, and remained the same for both requests because the server was not stopped in between them. The value of q was changed by this specific request by assigning the request's query to q. 
 
 ![Screenshot of server printing an error message](images/server_ss2.png)
 
