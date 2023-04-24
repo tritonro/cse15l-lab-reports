@@ -101,8 +101,16 @@ The symptom, visible in the terminal output of running the these tests, is shown
 
 
 The bug prior to fixing the code is show below. 
+'''
+
+'''
 
 This is the code after fixing the bug.
+
+'''
+
+'''
+
 Briefly describe why the fix addresses the issue.
 
 
