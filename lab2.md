@@ -75,7 +75,16 @@ Since main did not run again, the value of port stayed the same (4001). The valu
 
 ## Part 2 - Debugging During Lab 3
 
-Choose one of the bugs from lab 3.
+My lab group found a bug in lab 3 using this JUnit test: 
+```
+@Test
+ public void testReversed2() {
+   int[] input1 = {1,2 };
+   assertArrayEquals(new int[]{2,1 }, ArrayExamples.reversed(input1));
+ }
+```
+
+
 
 Provide:
 
