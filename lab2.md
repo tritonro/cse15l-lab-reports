@@ -108,7 +108,14 @@ The bug prior to fixing the code is show below.
 This is the code after fixing the bug.
 
 '''
-
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length/2; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
+  }
 '''
 
 Briefly describe why the fix addresses the issue.
