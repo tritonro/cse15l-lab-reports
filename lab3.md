@@ -122,19 +122,4 @@ Use grep to search for a pattern in a specific type of file:
       grep "pattern" --include="*.txt" *
       This will search for the given pattern in all files with a .txt extension in the current directory and print out any lines that contain the pattern.       The --include option is used to specify the file type to search in.
 
-
-
-
-
-User
-You're the best ChatGPT !
-ChatGPT
-
-Thank you, happy to help! If you have any more questions, feel free to ask.
-
-
-
-
-
-Regenerate response
-and how you changed the output after it was produced
+I changed the output in my lab report by omitting ChatGPT's code examples and selecting four of the eight options to include in my report. The outputs I did include were copy- pasted and rephrased slightly to match the format of the report. 
