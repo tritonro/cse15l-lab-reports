@@ -56,13 +56,7 @@ This will search for the given pattern in all files with the fiven file extensio
 
 example 1 
 ```
-oi ello
-```
- a sentence or two about what it’s doing and why it’s useful.
- 
-example 2
-```
-oi ello
-```
- a sentence or two about what it’s doing and why it’s useful.
-  Citation + URL 
+
+## ChatGPT 
+The prompts you gave to ChatGPT, or the context in which you used Copilot autocomplete
+What its output was and how you changed the output after it was produced
