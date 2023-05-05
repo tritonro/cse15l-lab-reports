@@ -19,7 +19,8 @@ oi ello
  
  Citation + URL 
  
-Second, 
+### -l 
+This option allows you to search for a pattern in all files in a directory, but print out the filenames containing it rather than the lines themselves. 
 
 example 1 
 ```
