@@ -1,9 +1,9 @@
-Lab Report 3
+# Lab Report 3
 by Rosario Ortiz
 
-Alternate Uses for Grep 
+## Alternate Uses for Grep 
 
--r 
+### -r 
 This option allows you to search for a pattern in all files in a directory (and any subdirectories) recursively, and print any lines that contain the pattern.
 
 example 1 
