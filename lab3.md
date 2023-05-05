@@ -34,7 +34,9 @@ oi ello
  a sentence or two about what it’s doing and why it’s useful.
   Citation + URL 
 
-Third, 
+### -c
+This option counts the number of lines that match a pattern and prints this number out. 
+
 example 1 
 ```
 oi ello
