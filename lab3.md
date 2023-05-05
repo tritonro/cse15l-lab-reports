@@ -50,7 +50,10 @@ oi ello
  a sentence or two about what it’s doing and why it’s useful.
   Citation + URL 
  
-Fourth
+### --include="*.fileType"
+
+This will search for the given pattern in all files with the fiven file extension in the current directory and print out any lines that contain the pattern. The --include option is used to specify the file type to search in.
+
 example 1 
 ```
 oi ello
