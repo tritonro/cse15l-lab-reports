@@ -6,11 +6,16 @@ by Rosario Ortiz
 ### -r 
 This option allows you to search for a pattern in all files in a directory (and any subdirectories) recursively, and print any lines that contain the pattern.
 
-example 1 
+example 1
 ```
-oi ello
+$ grep -r biophysics
+./technical/plos/journal.pbio.0020067.txt:        College London's physics department and director of a biophysics research unit sponsored by
+./technical/plos/journal.pbio.0020012.txt:        Kenyon, professor of biochemistry and biophysics at the University of California at San
+./technical/biomed/gb-2001-2-4-research0012.txt:          expression and membrane biophysics
+./technical/biomed/gb-2001-2-4-research0012.txt:        biophysics of ion transport. The value of such
+./technical/biomed/gb-2001-3-1-research0001.txt:        understanding of the biophysics of water flow across plant
 ```
- a sentence or two about what it’s doing and why it’s useful.
+ In this example, grep recursively searches every directory in the working directory (docsearch), and returns all the files that contain the given string. Below each file path, grep -r prints the line that contains the string being searched for. 
 example 2
 ```
 oi ello
@@ -24,7 +29,8 @@ This option allows you to search for a pattern in all files in a directory, but 
 
 example 1 
 ```
-oi ello
+$  grep -l biophysics
+# nothing is returned 
 ```
  a sentence or two about what it’s doing and why it’s useful.
 example 2
