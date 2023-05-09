@@ -559,13 +559,25 @@ example 1
 $  grep -l biophysics
 # nothing is returned 
 ```
- a sentence or two about what it’s doing and why it’s useful.
+ The first time I tried to run grep -l, I chose a random word and got no output. 
+ 
 example 2
 ```
-oi ello
+(base) rosarioortiz@Rosarios-MacBook-Air docsearch % grep -l "biophysics"
+^C
+(base) rosarioortiz@Rosarios-MacBook-Air docsearch % cd technical/biomed 
+(base) rosarioortiz@Rosarios-MacBook-Air biomed % grep -l "biophysics"
+^C
+(base) rosarioortiz@Rosarios-MacBook-Air biomed % grep -l "morbidity"
+^C
+(base) rosarioortiz@Rosarios-MacBook-Air biomed % cd ..
+(base) rosarioortiz@Rosarios-MacBook-Air technical % cd 911report 
+(base) rosarioortiz@Rosarios-MacBook-Air 911report % grep -l "SOME"
+
 ```
- a sentence or two about what it’s doing and why it’s useful.
-  Citation + URL 
+When I tried running it again, in different working directories, using quotes, and choosing words that were found early on in the top file in the directory, I found that grep -l also did not return anything. I am unsure whether I ran it incorrectly each time, or if it is just slower than grep -r, which is strange, because I would assume that checking subdirectories recursively would take longer. This test is useful for showing some potential limitations or common misuses of grep. 
+
+I learned about this command from Chat GPT. 
 
 ### -c
 This option counts the number of lines that match a pattern and prints this number out. 
