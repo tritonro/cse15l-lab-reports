@@ -9,3 +9,5 @@
 **Week 5**
 ---
 [Lab Report 3](https://tritonro.github.io/cse15l-lab-reports/lab3.html)
+
+[Lab Report 5](https://tritonro.github.io/cse15l-lab-reports/lab5.html)
