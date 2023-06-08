@@ -18,4 +18,32 @@ The screenshot below shows the contents of grade.sh printed to terminal using ca
 
 
 ### Response from TA 
-Firstly, you should note that in bash, strings can be typed out without any other characters added to them, while variables require "$" to be prepended to them when they are referenced throughout the script. 
+Firstly, you should note that in bash, strings can be typed out without any other characters added to them, while variables require "$" to be prepended to them when they are referenced throughout the script. Ensure that your script follows these conventions and then try running again. 
+
+### Student Response
+Here is another screenshot showing what terminal output I got from trying that. 
+
+![Image](images/terminalSS.png). 
+
+
+The bug resulted from an error in a conditional statement. Without including "$" prior to the name of the variable storing the path to ListExamples.java, the bash script interpreted the if-statement to be checking for a file with the same name as the variable "NEWPATH". The fix suggested by the TA resolved the bug. 
+
+### Information about setup
+
+The file & directory structure needed can be found in the skill demo 2 github repository. The server files in this repository are not needed to recreate the error. 
+
+The contents of each file before fixing the bug
+
+The contents of grade.sh prior to fixing the bug is in the screenshot provided by the student above. The contents of all other files can match the contents of the original repository. 
+
+The full command line I ran to trigger the bug was 
+'''
+cd grader-skill-demo2
+bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested.git
+'''
+
+To fix the bug, edit grade.sh by changing the if-statement under "echo 'Finished cloning' to the if-statement below:
+
+'''
+if [[-f $NEWPATH]]
+'''
