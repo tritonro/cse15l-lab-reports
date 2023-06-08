@@ -18,4 +18,4 @@ The screenshot below shows the contents of grade.sh printed to terminal using ca
 
 
 ### Response from TA 
-
+Firstly, you should note that in bash, strings can be typed out without any other characters added to them, while variables require "$" to be prepended to them when they are referenced throughout the script. 
