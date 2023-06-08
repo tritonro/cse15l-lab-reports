@@ -37,13 +37,18 @@ The contents of each file before fixing the bug
 The contents of grade.sh prior to fixing the bug is in the screenshot provided by the student above. The contents of all other files can match the contents of the original repository. 
 
 The full command line I ran to trigger the bug was 
-'''
+```
 cd grader-skill-demo2
 bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested.git
-'''
+```
 
 To fix the bug, edit grade.sh by changing the if-statement under "echo 'Finished cloning' to the if-statement below:
 
-'''
+```
 if [[-f $NEWPATH]]
-'''
+```
+
+
+## Something I learned 
+
+One thing I learned from my lab experience in the second half of the quarter was the function of "-cp" when compiling a java file. When using it to compile JUNIT tests in CSE 12, we were told not to worry about what it did. Not knowing this from the start of the quarter sometimes made it challenging to troubleshoot issues compiling PAs or using JUNIT. I had a similar issue during lab while compiling a java file because I had forgotten to include this flag and the classpath to JUNIT. Then, Jeannie explained to me that this flag stands for "class path," and it was necessary for java to find the path to JUNIT which it needed to run the JUNIT tests in the java file being compiled. 
